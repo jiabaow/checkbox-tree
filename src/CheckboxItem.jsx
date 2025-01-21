@@ -10,7 +10,7 @@ const CheckboxItem = ({ item, level = 0 }) => {
     };
 
     return (
-        <div style={{ marginLeft: level * 20 }}>
+        <div style={{ marginLeft: level * 20, textAlign: 'left' }}>
             <label>
                 <input type="checkbox" checked={checked} onChange={handleChange}/>
                 {item.name}
